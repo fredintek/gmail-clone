@@ -1,0 +1,11 @@
+.app__body {
+  display: flex;
+  /* border: 1px solid red; */
+  padding: 10px 10px;
+  height: 100vh;
+}
+
+.app_main {
+  /* border: 1px solid red; */
+  flex: 1;
+}

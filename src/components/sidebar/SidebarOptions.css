@@ -1,0 +1,35 @@
+.sidebar__option {
+  /* border: 1px solid red; */
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.sidebar__option > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.sidebar__option:hover {
+  border-radius: 100px;
+  background-color: rgb(255, 204, 204);
+}
+
+.sidebar__option:hover p,
+.sidebar__option:hover .sidebar__optionIcon {
+  color: #c04b37 !important;
+}
+
+.sidebar__option .sidebar__optionNumber {
+  color: #c04b37;
+}
+
+.sidebar__option p {
+  color: gray;
+  font-weight: 600;
+}
